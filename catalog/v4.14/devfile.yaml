@@ -10,7 +10,7 @@ components:
     image:
       imageName: ""
       dockerfile:
-        uri: catalog.Dockerfile
+        uri: Dockerfile
         buildContext: .
   - name: outerloop-deploy
     kubernetes:
